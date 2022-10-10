@@ -1,0 +1,371 @@
+/* abot banner */
+.aboutBannerContainer {
+  padding: 110px 0 110px 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.aboutBannerContainer h1 {
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  line-height: 0.8;
+  margin: 30px 0;
+}
+
+.aboutBannerContainer h1 span {
+  border-bottom: 5px solid #f9a622;
+}
+
+.aboutBannerContainer > div > div {
+  width: 448px;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+.aboutBannerContainer > div {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+/* about delta information */
+.aboutDeltaMathWrapper {
+  background-color: #fff;
+}
+
+.aboutDeltaMathWrapper .aboutDeltaContainer {
+  max-width: 1040px;
+  padding: 50px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.aboutDeltaMathWrapper .aboutDeltaContainer p {
+  width: 100%;
+  color: #292627;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 1.6;
+}
+
+.aboutDeltaMathWrapper .textAndBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 20px 20px 50px;
+}
+
+.aboutDeltaMathWrapper .btn {
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 550;
+  letter-spacing: -1px;
+  margin-top: 20px;
+  padding: 15px 40px;
+  text-transform: none;
+  color: #303d4e;
+  border: 1px solid #303d4e;
+}
+
+.aboutDeltaMathWrapper .btn:hover {
+  background-color: #303d4e;
+  color: #fff;
+}
+
+/* about delta team members */
+
+.teamContainer {
+  max-width: 1100px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.teamContainer {
+  color: #303d4e;
+  font-family: "georgia1";
+  font-size: 1.625rem;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.teamContainer .teamCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-inline: 30px;
+  gap: 30px;
+}
+
+.teamCardContainer .memberCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 219px;
+  height: 344px;
+}
+
+.teamCardContainer .memberCard:hover {
+  background-color: #303d4e;
+  color: #fff;
+}
+
+.teamCardContainer .memberCard > img {
+  width: 219px;
+  height: 250px;
+}
+
+.teamCardContainer .cardText {
+  padding: 24px 16px;
+}
+
+.teamCardContainer .name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-family: Georgia, serif;
+}
+
+.teamCardContainer .designation {
+  font-size: 1.25rem;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.00714em;
+  line-height: 1.375rem;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+/* member modal */
+
+.modalCardContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalCardContainer .closeMark {
+  width: 1012px;
+  height: 60px;
+  padding: 8px;
+  background-color: #fff;
+  text-align: right;
+}
+
+.modalCardContainer .memDetails {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 24px 80px 24px;
+  width: 980px;
+}
+
+.modalCardContainer .memDetails p {
+  margin: 0;
+  padding-right: 40px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.03571em;
+  line-height: 1.5rem;
+}
+
+.modalCardContainer .memDetails .imageContainer {
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  height: 348px;
+  width: 288px;
+}
+
+.modalCardContainer .memDetails .imageContainer > div > img {
+  width: 219px;
+  height: 250px;
+  margin-inline: auto;
+  color: #303d4e;
+}
+.modalCardContainer .memDetails .imageContainer > div {
+  width: 287px;
+}
+
+.modalCardContainer .memDetails .imageContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.modalCardContainer .memDetails .cardText {
+  padding: 24px 0;
+}
+
+.modalCardContainer .muiIcon {
+  cursor: pointer;
+  margin: 20px 20px 0 0;
+  width: 50px;
+  height: 50px;
+  color: #303d4e;
+  opacity: 0.5;
+}
+
+/* testimonial  */
+
+.sliderContainer {
+  width: 100%;
+  background-color: #303d4e;
+  color: #fff;
+}
+
+.slider {
+  padding: 50px 0px;
+  max-width: 800px;
+  margin-inline: auto;
+  text-align: center;
+  color: #fff;
+  font-family: Lato, serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 0.4rem;
+  padding-top: 2.2rem;
+}
+
+.slider .reference {
+  display: flex;
+  padding: 1.5rem 1rem 1rem;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-bottom: 80px;
+}
+
+.slider .quoteImage {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.slider .quoteImage img {
+  width: 56px;
+  height: 41px;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 899px) {
+  .slider {
+    max-width: 400px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .slider {
+    max-width: 280px;
+    font-size: 12px;
+  }
+}
+
+/* Banner */
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .aboutBannerContainer {
+    padding: 80px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .aboutBannerContainer {
+    padding: 40px;
+    text-align: center;
+  }
+  .aboutBannerContainer h1 {
+    font-size: 28px;
+  }
+  .aboutBannerContainer > div > div {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1099px) {
+  .aboutDeltaMathWrapper .aboutDeltaContainer {
+    flex-direction: column;
+    width: 50%;
+  }
+  .aboutDeltaContainer img {
+    width: 100%;
+  }
+
+  .aboutDeltaMathWrapper .textAndBtn {
+    width: 100%;
+    padding: 20px 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+  .aboutDeltaMathWrapper .aboutDeltaContainer {
+    flex-direction: column;
+    width: 60%;
+  }
+  .aboutDeltaContainer img {
+    width: 100%;
+    height: 302px;
+    object-fit: cover;
+  }
+
+  .aboutDeltaMathWrapper .textAndBtn {
+    width: 100%;
+    padding: 20px 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .aboutDeltaMathWrapper .aboutDeltaContainer {
+    flex-direction: column;
+    width: 70%;
+    padding: 50px 0;
+  }
+  .aboutDeltaContainer img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .aboutDeltaMathWrapper .textAndBtn {
+    width: 100%;
+    padding: 20px 0;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .aboutDeltaMathWrapper .btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 770px) {
+  .teamContainer {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .teamContainer {
+    font-size: 18px;
+  }
+}

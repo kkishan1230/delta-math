@@ -1,0 +1,85 @@
+.homeCaraouselSliderContainer {
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.caraouselContainer {
+  background-color: #f0eeef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content !important;
+  box-shadow: 0px 0px 5px grey;
+  height: 90%;
+}
+
+.caraouselContainer .textContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 5px;
+  max-width: 256px;
+  height: 372px;
+  padding: 22.4px;
+}
+
+.caraouselContainer .textContainer > div > img {
+  width: 30px;
+}
+.caraouselContainer .textContainer > img {
+  width: 78px;
+  aspect-ratio: 1;
+  margin-top: 20px;
+}
+
+.caraouselContainer .textContainer .clientName {
+  font-family: "georgiaBold";
+  color: #313d4e;
+  margin-top: 10px;
+}
+
+.caraouselContainer .textContainer .clientDesignation {
+  color: #6b6b6b;
+  font-family: "georgiaBold";
+}
+
+.caraouselContainer .textContainer .quoteDescription {
+  font-family: "georgia1";
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6b6b6b;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #313d4e;
+}
+
+@media only screen and (max-width: 1110px) {
+  .homeCaraouselSliderContainer {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .homeCaraouselSliderContainer {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .caraouselContainer .textContainer {
+    box-sizing: border-box;
+    width: 220px;
+    padding: 20px 22.4px;
+    height: fit-content;
+  }
+  .homeCaraouselSliderContainer {
+    width: 230px;
+  }
+}

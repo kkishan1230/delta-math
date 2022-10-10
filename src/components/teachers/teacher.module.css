@@ -1,0 +1,587 @@
+.bannerContainer .textContainer {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.bannerContainer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bannerContainer .textContainer > div {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.bannerContainer .textContainer > h2 {
+  font-family: Georgia, serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 0.8;
+  margin-top: 20px;
+}
+
+/* create acccount */
+
+.CreateAccountContainer .createAccount {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 35px 20px 40px;
+  margin-bottom: 60px;
+  background-color: #303d4e;
+}
+
+.CreateAccountContainer .teachers,
+.CreateAccountContainer .schools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 40px 10px;
+}
+
+.CreateAccountContainer .teachers {
+  border-right: 2px solid hsla(0, 0%, 55%, 0.5);
+}
+
+.CreateAccountContainer .button {
+  background-color: #f9a622;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  min-height: 70px;
+  min-width: 250px;
+  padding: 10px 55px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.CreateAccountContainer .button:hover {
+  opacity: 0.8;
+  background-color: #f9a622;
+}
+
+.CreateAccountContainer .teachers > div,
+.CreateAccountContainer .schools > div {
+  color: #fff;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+/* Plans and features*/
+
+.priceChartContainer {
+  padding: 70px 0 80px;
+}
+
+.priceChartContainer .plansHeading {
+  color: #303d4e;
+  font-family: Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0 auto 30px;
+  max-width: 650px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.priceChartContainer .priceCharts {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Quick Video */
+
+.quickVideoContainer {
+  background-color: #303d4e;
+  margin-top: 70px;
+}
+
+.quickVideoContainer .outerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+  margin-inline: auto;
+  padding: 50px 0;
+  gap: 40px;
+}
+
+.quickVideoContainer .watchVideoHeading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  width: 45%;
+}
+.quickVideoContainer .watchVideoHeading h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  border-bottom: 2px solid #a5a5a5;
+  padding: 0 10px 30px;
+}
+
+.quickVideoContainer .designationContainer {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.quickVideoContainer .getStarted {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.quickVideoContainer .designationContainer .btn {
+  background-color: #f9a622;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 600;
+  font-weight: 550;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+  min-height: 50px;
+  min-width: 180px;
+  padding: 10px 30px;
+  text-transform: none;
+}
+
+/* image caraousel for teacher */
+.sliderContainer {
+  position: relative;
+  padding: 80px 0;
+  width: 1200px;
+  margin-inline: auto;
+}
+
+.sliderContainer .macPro {
+  position: absolute;
+  top: 46.5%;
+  left: 47.1%;
+  display: block;
+  scale: 0.9;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+/* Arrowsss */
+
+.center .prevArrow div {
+  width: 50px;
+  height: 50px;
+  background-color: #303d4e;
+}
+
+.backArrow {
+  display: block;
+  /* position: absolute; */
+  bottom: -20px;
+  padding: 20px 16px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 8px 3px,
+    rgba(0, 0, 0, 0.11) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 1px 6px 0px,
+    rgba(0, 0, 0, 0.04) 0px 1px 6px 0px;
+  left: 560px;
+}
+
+.foreArrow {
+  display: block;
+  padding: 20px 16px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 3px 8px 3px,
+    rgba(0, 0, 0, 0.11) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 1px 6px 0px,
+    rgba(0, 0, 0, 0.04) 0px 1px 6px 0px;
+  right: 560px;
+}
+
+.backArrow .arrow {
+  width: 25px;
+  height: 25px;
+  transform: translateX(40%) rotate(45deg);
+  box-shadow: rgb(107, 107, 107) -2px 2px 0px;
+  opacity: 0.6;
+}
+
+.foreArrow .arrow {
+  width: 25px;
+  height: 25px;
+  transform: translateX(-40%) rotate(-135deg);
+  box-shadow: rgb(107, 107, 107) -2px 2px 0px;
+  opacity: 0.6;
+}
+
+/* overlay */
+.sliderContainer .overlayTextContainer {
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #303d4e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  padding: 20px;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.sliderContainer .overlayTextContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sliderContainer .overlayTextContainer:hover {
+  opacity: 0.75;
+  transition: all ease-in-out 1;
+}
+
+.sliderContainer .overlayTextContainer h3 {
+  margin: 0;
+}
+
+/* modal caraousel */
+.modalComponent {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalImagePopUp .backArrow {
+  position: absolute;
+  height: fit-content;
+  top: 200px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modalImagePopUp {
+  width: 750px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* responsive */
+/* Banner */
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  .bannerContainer .textContainer h2 {
+    font-size: 32px;
+  }
+  .bannerContainer .textContainer div {
+    font-size: 16px;
+  }
+  .bannerContainer .textContainer {
+    padding: 100px 0px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .bannerContainer .textContainer h2 {
+    font-size: 24px;
+  }
+  .bannerContainer .textContainer div {
+    font-size: 12px;
+  }
+  .bannerContainer .textContainer {
+    padding: 60px 0px;
+  }
+}
+
+/* create account */
+@media only screen and (min-width: 480px) and (max-width: 699px) {
+  .createAccount .button {
+    font-size: 14px;
+    max-width: 180px;
+    min-width: 180px;
+    padding: 0;
+    min-height: 50px;
+    max-height: 50px;
+  }
+  .createAccount .schools > div,
+  .createAccount .teachers > div {
+    font-size: 16px;
+  }
+  .createAccount .schools {
+    padding-right: 0;
+  }
+  .createAccount .teachers {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .createAccount .button {
+    font-size: 14px;
+    max-width: 180px;
+    min-width: 180px;
+    padding: 0;
+    min-height: 50px;
+    max-height: 50px;
+  }
+  .createAccount .schools > div,
+  .createAccount .teachers > div {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+  .createAccount {
+    flex-direction: column !important;
+    gap: 15px;
+    padding: 15px 20px !important;
+  }
+  .createAccount .teachers {
+    border-right: none;
+  }
+}
+
+/* Caraousel */
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .sliderContainer {
+    position: relative;
+    padding: 50px 0;
+    width: 900px;
+    margin-inline: auto;
+  }
+  .sliderContainer .macPro {
+    top: 28.6%;
+    left: 40.6%;
+    scale: 0.7;
+  }
+}
+@media only screen and (min-width: 799px) and (max-width: 899px) {
+  .sliderContainer {
+    position: relative;
+    padding: 50px 0;
+    width: 799px;
+    margin-inline: auto;
+  }
+  .sliderContainer .macPro {
+    top: 20%;
+    left: 35.3%;
+    scale: 0.6;
+  }
+}
+/* @media only screen and (min-width: 480px) and (max-width: 798px) {
+  .sliderContainer {
+    position: relative;
+    padding: 50px 0;
+    width: 480px;
+    margin-inline: auto;
+  }
+  .sliderContainer .macPro {
+    top: 20%;
+    left: 35.3%;
+    scale: 0.6;
+    display: none;
+  }
+} */
+@media only screen and (min-width: 699px) and (max-width: 798px) {
+  .sliderContainer {
+    position: relative;
+    padding: 50px 0;
+    width: 699px;
+    height: 240px;
+    margin-inline: auto;
+  }
+  .sliderContainer .macPro {
+    top: 15.1%;
+    left: 31.9%;
+    scale: 0.55;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .sliderContainer {
+    position: relative;
+    padding: 0;
+    height: 240px;
+    margin-inline: auto;
+    width: 240px;
+  }
+  .sliderContainer .macPro {
+    top: 0.2%;
+    left: -4.3%;
+    scale: 0.55;
+  }
+  .foreArrow .arrow,
+  .backArrow .arrow {
+    width: 10px;
+    height: 10px;
+  }
+  .foreArrow,
+  .backArrow {
+    padding-inline: 10px;
+  }
+}
+
+/* price chart */
+@media only screen and (min-width: 480px) and (max-width: 798px) {
+  .priceChartContainer .priceCharts {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .priceChartContainer {
+    padding: 0;
+  }
+  .priceChartContainer .plansHeading {
+    font-size: 18px;
+    max-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .priceChartContainer .priceCharts {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .priceChartContainer {
+    padding: 0;
+  }
+  .priceChartContainer .plansHeading {
+    font-size: 18px;
+    max-width: 450px;
+  }
+}
+
+/* quick video */
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+  }
+  .quickVideoContainer .watchVideoHeading h3 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .quickVideoContainer .getStarted {
+    padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+  }
+  .quickVideoContainer .watchVideoHeading h3 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 24px;
+  }
+  .quickVideoContainer .getStarted {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+  }
+  .quickVideoContainer .watchVideoHeading h3 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .quickVideoContainer .getStarted {
+    padding-bottom: 0;
+  }
+  .quickVideoContainer .outerFlex iframe {
+    width: 400px;
+    height: 250px;
+  }
+  .quickVideoContainer .watchVideoHeading {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+  }
+  .quickVideoContainer .watchVideoHeading h3 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .quickVideoContainer .getStarted {
+    padding-bottom: 0;
+  }
+  .quickVideoContainer .outerFlex iframe {
+    width: 320px;
+    height: 180px;
+  }
+  .quickVideoContainer .watchVideoHeading {
+    width: 70%;
+  }
+  .quickVideoContainer .designationContainer {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .sliderContainer .overlayTextContainer {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 799px) {
+  .modalImagePopUp {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .modalImagePopUp {
+    width: 80%;
+  }
+  .modalImagePopUp .modalText {
+    padding: 0 20px !important;
+    margin-top: 20px;
+  }
+  .modalImagePopUp .modalText p {
+    margin: 0;
+  }
+}

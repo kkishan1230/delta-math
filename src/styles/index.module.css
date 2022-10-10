@@ -1,0 +1,121 @@
+.index {
+  background-image: url("../../src/images/banner/Rectangle3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  height: 596.6px;
+  background-position: center;
+  opacity: 0.99;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.index h1 {
+  font-size: 3.5rem;
+  color: white;
+  line-height: 0.8;
+  font-weight: 400;
+  font-family: "georgiaRegular";
+}
+
+.index h1 > span {
+  text-decoration: underline solid #f9a622 5px;
+  font-family: "georgiaRegular";
+}
+
+.index .head_container {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding: 110px 0 110px 80px;
+}
+.index .sub_head > h3 {
+  margin-top: 40px;
+  font-size: 30px;
+  color: white;
+  font-family: "georgiaRegular";
+  font-weight: 400;
+}
+
+.index .btn {
+  margin-top: 80px;
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (min-width: 720px) and (max-width: 900px) {
+  .index {
+    height: fit-content;
+  }
+  .index .head_container {
+    padding: 30px;
+  }
+  .index .head_container h1 {
+    font-size: 32px;
+  }
+  .index .head_container .sub_head h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 719px) {
+  .index {
+    height: fit-content;
+  }
+  .index .head_container {
+    padding: 30px;
+  }
+  .index .head_container h1 {
+    font-size: 32px;
+  }
+  .index .head_container .sub_head h3 {
+    font-size: 20px;
+  }
+  .index .btn {
+    margin-top: 40px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .index {
+    height: fit-content;
+  }
+  .index .head_container {
+    padding: 20px;
+  }
+  .index .head_container h1 {
+    font-size: 24px;
+  }
+  .index .head_container .sub_head h3 {
+    font-size: 16px;
+  }
+  .index .btn {
+    margin-top: 40px;
+  }
+  .index .sub_head > h3 {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .index {
+    height: fit-content;
+  }
+  .index .head_container {
+    padding: 20px;
+  }
+  .index .head_container h1 {
+    font-size: 24px;
+  }
+  .index .head_container .sub_head h3 {
+    font-size: 16px;
+  }
+  .index .btn {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+  .index .btn > button {
+    width: 180px;
+  }
+  .index .sub_head > h3 {
+    margin-top: 25px;
+  }
+}

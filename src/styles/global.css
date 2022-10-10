@@ -1,0 +1,315 @@
+@font-face {
+  font-family: "georgia1";
+  src: url("../fonts/Georgia.ttf");
+}
+
+@font-face {
+  font-family: "georgiaBold";
+  src: url("../fonts/georgia-bold.ttf");
+}
+
+@font-face {
+  font-family: "georgiaRegular";
+  src: url("../fonts/Georgia-Regular-font.ttf");
+}
+
+@font-face {
+  font-family: "georgiaAb";
+  src: url("../fonts/georgiab.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* flip counter */
+.tickFlipContainer {
+  padding: 12vh 0;
+  background-color: #303d4e;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.tickFlipContainer .Line {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 30px;
+  padding: 0 20px;
+  font-family: "georgiaBold";
+}
+
+.tickFlip {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.tick-flip {
+  width: 20px;
+}
+
+.tickCard {
+  display: flex;
+  justify-content: space-between;
+}
+.tick {
+  color: white;
+  font-size: 3.6rem;
+  line-height: 1.7;
+  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.tick-flip-front,
+.tick-flip-back {
+  background-color: #3f4857;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+  .tickFlipContainer {
+    padding: 100px 0;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 699px) {
+  .tickFlipContainer {
+    padding: 100px 0;
+  }
+  .tick {
+    font-size: 32px;
+  }
+  .tickFlipContainer .Line {
+    font-size: 19px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .tickFlipContainer {
+    padding: 50px 0;
+  }
+  .tick {
+    font-size: 24px;
+  }
+  .tickFlipContainer .Line {
+    font-size: 16px;
+  }
+}
+
+/* slick sliders */
+
+.center .slick-slide {
+  /* width: 400px; */
+  height: 240px;
+}
+
+.center .slick-active {
+  height: 100%;
+}
+
+.center .slick-slide {
+  transform: scale(0.89);
+}
+
+.center .slick-slide.slick-center {
+  z-index: 2;
+  transform: scale(1);
+}
+
+.center .slick-current {
+  width: 388px !important;
+  height: 248px;
+}
+
+.center .slick-current > div,
+.center .slick-current > div > div {
+  height: 100%;
+}
+.center .slick-slide div img {
+  width: 100%;
+  height: 100%;
+}
+
+/*  */
+.center .slick-slider {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin-inline: auto;
+}
+
+.center .slick-prev::before {
+  display: none !important;
+}
+.center .slick-next::before {
+  display: none !important;
+}
+.center .slick-prev,
+.center .slick-next {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+  top: 285px;
+}
+
+.center .slick-prev {
+  left: 45%;
+}
+.center .slick-next {
+  right: 45%;
+}
+
+/* modalArrows */
+.modalArrow .slick-prev::before {
+  display: none !important;
+}
+.modalArrow .slick-next::before {
+  display: none !important;
+}
+.modalArrow .slick-prev,
+.modalArrow .slick-next {
+  display: inline;
+  width: fit-content;
+  height: fit-content;
+  z-index: 2;
+  padding: 20px 15px;
+}
+
+.modalArrow .slick-arrow {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modalArrow .slick-next > div {
+  /* box-sizing: border-box; */
+  height: 15px;
+  width: 15px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+}
+.modalArrow .slick-prev > div {
+  height: 15px;
+  width: 15px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(45deg);
+}
+
+.modalArrow {
+  padding: 50px 50px 0 50px;
+}
+
+/* family Arrows*/
+
+.familyCaraousel .slick-prev,
+.familyCaraousel .slick-next {
+  top: 290px;
+}
+
+.familyCaraousel .slick-current > div > div > div img,
+.familyCaraousel .slick-current > div > div > div {
+  width: 100%;
+  height: 100%;
+}
+.familyCaraousel .slick-current {
+  width: 380px !important;
+  height: 280px !important;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  .center .slick-current {
+    width: 300px !important;
+    height: 188px;
+  }
+  .center .slick-next {
+    right: 390px;
+  }
+  .center .slick-prev {
+    left: 390px;
+  }
+  .center .slick-next,
+  .center .slick-prev {
+    top: 230px;
+  }
+}
+
+@media only screen and (min-width: 799px) and (max-width: 899px) {
+  .center .slick-current {
+    width: 258px !important;
+    height: 163px;
+  }
+  .center .slick-next {
+    right: 340px;
+  }
+  .center .slick-prev {
+    left: 340px;
+  }
+  .center .slick-next,
+  .center .slick-prev {
+    top: 200px;
+  }
+}
+
+/* @media only screen and (min-width: 480px) and (max-width: 798px) {
+  .center .slick-current {
+    width: 258px !important;
+    height: 163px;
+  }
+  .center .slick-next {
+    right: 340px;
+  }
+  .center .slick-prev {
+    left: 340px;
+  }
+  .center .slick-next,
+  .center .slick-prev {
+    top: 200px;
+  }
+} */
+
+@media only screen and (min-width: 699px) and (max-width: 798px) {
+  .center .slick-current {
+    width: 236px !important;
+    height: 148px;
+  }
+  .center .slick-next {
+    right: 290px;
+  }
+  .center .slick-prev {
+    left: 290px;
+  }
+  .center .slick-next,
+  .center .slick-prev {
+    top: 185px;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .center .slick-current {
+    width: 236px !important;
+    height: 148px;
+  }
+  .center .slick-next {
+    right: 85px;
+  }
+  .center .slick-prev {
+    left: 85px;
+  }
+  .center .slick-next,
+  .center .slick-prev {
+    top: 180px;
+  }
+}
+
+/* about carousel */
+
+.slick-next::before,
+.slick-prev::before {
+  display: none;
+}

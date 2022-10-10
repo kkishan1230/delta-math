@@ -1,0 +1,119 @@
+.section2 {
+  padding: 70px 60px;
+  display: flex;
+  max-width: 1080px;
+  justify-content: space-evenly;
+  margin-inline: auto;
+}
+
+.section2 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  padding: 20px;
+}
+
+.section2 h3 {
+  margin-top: 50px;
+  font-family: "georgia1";
+  font-size: 1.625rem;
+  color: #303d4e;
+}
+
+.section2 p {
+  font-family: "georgia1";
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.section2 > div {
+  width: 260px;
+}
+
+.section2 .imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 112px;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.section2 .contents {
+  text-align: center;
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+  .section2 {
+    padding: 40px 20px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .section2 > div {
+    width: 350px;
+  }
+  .section2 .contents > h3 {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 20px;
+  }
+  .section2 > div {
+    width: 350px;
+  }
+  .section2 .contents > h3 {
+    margin-top: 20px;
+  }
+
+  .section2 > div > div:first-child {
+    width: 60px;
+  }
+  .section2 > div > div:first-child img {
+    width: 100%;
+  }
+  .section2 .contents h3 {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 479px) {
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    padding: 20px;
+  }
+  .section2 > div {
+    width: 350px;
+  }
+  .section2 .contents > h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .section2 .contents p {
+    font-size: 14px;
+  }
+
+  .section2 > div > div:first-child {
+    width: 60px;
+  }
+  .section2 > div > div:first-child img {
+    width: 100%;
+  }
+  .section2 .contents h3 {
+    margin: 0;
+  }
+}

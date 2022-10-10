@@ -1,0 +1,240 @@
+.StudentsBanner {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: auto;
+  color: white;
+}
+
+.StudentsBanner .bannerContent {
+  padding: 150px 0;
+}
+
+.StudentsBanner .bannerContent > div {
+  font-size: 1.4rem;
+  font-style: "Lato", "serif";
+  font-weight: bold;
+  text-align: center;
+}
+
+.StudentsBanner .bannerContent > h1 {
+  font-family: Georgia, serif;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 0.8;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.beginLine {
+  background-color: #303d4e;
+}
+
+.beginLine p {
+  color: #fff;
+  font-family: Lato, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 5px 0;
+  max-width: 522px;
+}
+
+.beginLine > div {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
+
+.quickVideoContainer {
+  background-color: #ecf4f7;
+  margin-bottom: 80px;
+}
+
+.quickVideoContainer .text {
+  color: #303d4e;
+  font-family: Lato, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 30px;
+  max-width: 382px;
+  border-bottom: 2px solid #a5a5a5;
+}
+
+.quickVideoContainer .outerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1050px;
+  margin-inline: auto;
+  padding: 50px 30px;
+}
+
+.quickVideoContainer .innerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.quickVideoContainer .button {
+  color: #303d4e;
+  border: 1px solid #303d4e;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.quickVideoContainer .button:hover {
+  background-color: #303d4e;
+  color: #fff;
+}
+
+/* modal */
+
+.quickVideoContainer .modal,
+.beginLine .modal {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Responsive */
+/* Banner */
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  .StudentsBanner .bannerContent > div {
+    font-size: 16px;
+  }
+  .StudentsBanner .bannerContent > h1 {
+    font-size: 36px;
+  }
+  .StudentsBanner .bannerContent {
+    padding: 75px 0;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .StudentsBanner .bannerContent > div {
+    font-size: 12px;
+  }
+  .StudentsBanner .bannerContent > h1 {
+    font-size: 30px;
+  }
+  .StudentsBanner .bannerContent {
+    padding: 60px 0;
+  }
+}
+
+/* Create Account */
+@media only screen and (min-width: 750px) and (max-width: 920px) {
+  .beginLine p {
+    font-size: 18px;
+  }
+  .beginLine .btn {
+    width: 180px;
+    font-size: 16px;
+    padding: 0;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 749px) {
+  .beginLine p {
+    font-size: 15px;
+  }
+  .beginLine .btn {
+    width: 180px;
+    font-size: 16px;
+    padding: 20px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 549px) {
+  .beginLine > div {
+    flex-direction: column;
+    padding: 25px;
+    gap: 0;
+  }
+  .beginLine p {
+    font-size: 15px;
+  }
+  .beginLine .btn {
+    width: 150px;
+    font-size: 14px;
+    height: 50px;
+  }
+}
+
+/* Quick Video */
+
+@media only screen and (min-width: 840px) and (max-width: 1120px) {
+  .quickVideoContainer .text {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .quickVideoContainer iframe {
+    max-width: 420px;
+    max-height: 245px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 839px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+  .quickVideoContainer .text {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .quickVideoContainer iframe {
+    max-width: 420px;
+    max-height: 250px;
+    box-shadow: 0 0 10px rgb(82, 81, 81);
+  }
+  .quickVideoContainer .text {
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .quickVideoContainer .button {
+    transform: scale(0.8);
+  }
+  .quickVideoContainer .innerFlex {
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .quickVideoContainer .outerFlex {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+  }
+  .quickVideoContainer .text {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .quickVideoContainer iframe {
+    width: 350px;
+    height: 195px;
+    box-shadow: 0 0 10px rgb(82, 81, 81);
+  }
+  .quickVideoContainer .text {
+    padding-bottom: 0;
+    text-align: center;
+  }
+  .quickVideoContainer .button {
+    transform: scale(0.8);
+  }
+  .quickVideoContainer .innerFlex {
+    gap: 10px;
+  }
+}

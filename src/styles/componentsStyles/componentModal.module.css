@@ -1,0 +1,57 @@
+.modalContainer {
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalContainer {
+  width: 752px;
+  height: 300px;
+  background-color: #fff;
+  padding: 24px;
+}
+
+.modalContainer h5 {
+  color: #303d4e;
+  font-family: Georgia, serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 20px 0;
+}
+
+.modalContainer .btn {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 15px;
+  color: #303d4e;
+  border: 1px solid #303d4e;
+  font-family: "Lato", sans-serif;
+}
+
+.modalContainer .btn:hover {
+  background-color: #303d4e;
+  color: #fff;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+  .modalContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .modalContainer {
+    width: 80%;
+    height: 260px;
+  }
+  .modalContainer h5 {
+    font-size: 20px;
+  }
+  .modalContainer .btn {
+    padding: 8px 15px;
+  }
+}
