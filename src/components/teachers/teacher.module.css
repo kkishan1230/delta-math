@@ -65,6 +65,7 @@
   padding: 10px 55px;
   font-family: "Lato", sans-serif;
   font-weight: 900;
+  text-transform: unset;
 }
 
 .CreateAccountContainer .button:hover {
@@ -213,6 +214,14 @@
   left: 560px;
 }
 
+.backArrow:hover {
+  padding: 17px 15px;
+  box-shadow: 2px 3px 8px 3px rgba(0, 0, 0, 0.15),
+    0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 1px 6px 0 rgba(0, 0, 0, 0.04),
+    0 1px 6px 0 rgba(0, 0, 0, 0.04), inset -8px 0 6px rgba(0, 0, 0, 0.08) !important;
+  transition: all ease-in-out 0.1s;
+}
+
 .foreArrow {
   display: block;
   padding: 20px 16px;
@@ -223,6 +232,14 @@
     rgba(0, 0, 0, 0.11) 0px 2px 2px 0px, rgba(0, 0, 0, 0.04) 0px 1px 6px 0px,
     rgba(0, 0, 0, 0.04) 0px 1px 6px 0px;
   right: 560px;
+}
+
+.foreArrow:hover {
+  box-shadow: 2px 3px 8px 3px rgba(0, 0, 0, 0.15),
+    0 2px 2px 0 rgba(0, 0, 0, 0.11), 0 1px 6px 0 rgba(0, 0, 0, 0.04),
+    0 1px 6px 0 rgba(0, 0, 0, 0.04), inset 8px 0 6px rgba(0, 0, 0, 0.08) !important;
+  padding: 17px 15px;
+  transition: all ease-in-out 0.1s;
 }
 
 .backArrow .arrow {

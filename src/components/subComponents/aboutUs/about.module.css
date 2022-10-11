@@ -68,7 +68,7 @@
   font-weight: 550;
   letter-spacing: -1px;
   margin-top: 20px;
-  padding: 15px 40px;
+  padding: 10px 40px;
   text-transform: none;
   color: #303d4e;
   border: 1px solid #303d4e;
@@ -153,14 +153,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #fff;
 }
 
 .modalCardContainer .closeMark {
-  width: 1012px;
-  height: 60px;
+  width: fit-content;
   padding: 8px;
   background-color: #fff;
-  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .modalCardContainer .memDetails {
@@ -169,8 +171,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 20px 24px 80px 24px;
-  width: 980px;
+  padding: 80px 24px 80px 24px;
+  width: 940px;
 }
 
 .modalCardContainer .memDetails p {
@@ -257,6 +259,7 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .slider .quoteImage img {
   width: 56px;
@@ -367,5 +370,87 @@
 @media only screen and (max-width: 480px) {
   .teamContainer {
     font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 752px) and (max-width: 1024px) {
+  .modalCardContainer .memDetails {
+    align-items: flex-start;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 24px 60px 24px;
+    width: 640px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modalCardContainer .memDetails > p {
+    padding: 10px;
+    text-justify: inter-word;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 562px) and (max-width: 751px) {
+  .modalCardContainer .memDetails {
+    align-items: flex-start;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 24px 60px 24px;
+    width: 440px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modalCardContainer .memDetails p {
+    padding: 0;
+  }
+  .modalCardContainer .memDetails > p {
+    padding: 10px;
+    text-justify: inter-word;
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 561px) {
+  .modalCardContainer .memDetails {
+    align-items: flex-start;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 10px;
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .modalCardContainer .memDetails p {
+    padding: 0;
+  }
+  .modalCardContainer .memDetails > p {
+    padding: 10px;
+    text-justify: inter-word;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .modalCardContainer .memDetails .imageContainer {
+    height: auto;
+    width: auto;
+  }
+  .modalCardContainer .memDetails .imageContainer > div > img {
+    width: auto;
+    height: 160px;
+  }
+  .modalCardContainer .memDetails .imageContainer h3 {
+    font-size: 17px;
+  }
+  .modalCardContainer .muiIcon {
+    margin: 0;
+  }
+  .modalCardContainer .memDetails .cardText {
+    padding: 0;
   }
 }

@@ -19,7 +19,7 @@
 }
 
 .index h1 > span {
-  text-decoration: underline solid #f9a622 5px;
+  border-bottom: 5px solid #f9a622;
   font-family: "georgiaRegular";
 }
 
@@ -41,6 +41,9 @@
   display: flex;
   gap: 25px;
 }
+.index .noUnderline {
+  text-decoration: none;
+}
 
 @media only screen and (min-width: 720px) and (max-width: 900px) {
   .index {
@@ -54,6 +57,9 @@
   }
   .index .head_container .sub_head h3 {
     font-size: 20px;
+  }
+  .index .btn {
+    height: 48px !important;
   }
 }
 
@@ -89,6 +95,7 @@
   }
   .index .btn {
     margin-top: 40px;
+    flex-direction: column;
   }
   .index .sub_head > h3 {
     margin-top: 25px;

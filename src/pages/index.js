@@ -26,24 +26,18 @@ export default function Home({ data }) {
               <h3>Built by teachers. Used by millions.</h3>
             </div>
             <div className={style.btn}>
-              <Link to="/teacher-schools">
+              <Link to="/teacher-schools" className={style.noUnderline}>
                 <IndexButtons variant="contained" size="large">
                   For Teachers/ Schools
                 </IndexButtons>
               </Link>
-              <Link to="/families-individual">
+              <Link to="/families-individual" className={style.noUnderline}>
                 <IndexButtons variant="contained" size="large">
                   Families/ Individual
                 </IndexButtons>
               </Link>
-              <Link to="/students">
-                <IndexButtons
-                  variant="contained"
-                  size="large"
-                  sx={{
-                    padding: "25px 10px",
-                  }}
-                >
+              <Link to="/students" className={style.noUnderline}>
+                <IndexButtons variant="contained" size="large">
                   For Students
                 </IndexButtons>
               </Link>
