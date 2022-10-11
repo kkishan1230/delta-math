@@ -26,6 +26,7 @@
   width: 400px;
   line-height: 1.8;
   gap: 30px;
+  font-family: var(--common-font);
 }
 
 .home4 .images {

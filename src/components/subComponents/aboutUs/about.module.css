@@ -51,6 +51,7 @@
   font-weight: 400;
   letter-spacing: -0.2px;
   line-height: 1.6;
+  font-family: var(--common-font);
 }
 
 .aboutDeltaMathWrapper .textAndBtn {
@@ -59,6 +60,7 @@
   justify-content: center;
   align-items: flex-start;
   padding: 20px 20px 20px 50px;
+  font-size: 18px;
 }
 
 .aboutDeltaMathWrapper .btn {

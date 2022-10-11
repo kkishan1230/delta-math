@@ -85,6 +85,12 @@
 .familyPriceContainer .familyPriceCard .headText p {
   margin: 0;
   margin-bottom: 20px;
+  font-family: var(--common-font);
+}
+
+.familyPriceContainer .familyPriceCard div p {
+  font-family: var(--common-font);
+  padding-inline: 20px;
 }
 
 .familyPriceContainer .button {

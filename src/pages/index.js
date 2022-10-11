@@ -19,9 +19,8 @@ export default function Home({ data }) {
         <section className={style.index}>
           <div className={style.head_container}>
             <h1>
-              Math done <span>right</span>.
+              Math done <span>right</span> <br /> Depth, clarity, and rigor.
             </h1>
-            <h1>Depth, clarity, and rigor.</h1>
             <div className={style.sub_head}>
               <h3>Built by teachers. Used by millions.</h3>
             </div>

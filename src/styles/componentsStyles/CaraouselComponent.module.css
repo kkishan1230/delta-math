@@ -50,7 +50,7 @@
 }
 
 .caraouselContainer .textContainer .quoteDescription {
-  font-family: "georgia1";
+  font-family: var(--common-font);
   line-height: 1.4;
   font-size: 16px;
   font-weight: 400;

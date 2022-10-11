@@ -23,9 +23,11 @@
 }
 
 .section2 p {
-  font-family: "georgia1";
-  line-height: 1.5;
+  line-height: 1.8;
   font-size: 16px;
+  font-family: var(--common-font);
+  color: #292627;
+  font-weight: 300;
 }
 
 .section2 > div {

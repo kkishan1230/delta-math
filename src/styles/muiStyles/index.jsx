@@ -7,7 +7,8 @@ export const IndexButtons = styled(Button)({
   textTransform: "unset",
   padding: "0px 10px",
   fontSize: "24px",
-  fontFamily: "georgiaBold",
+  fontFamily: "var(--common-font)",
+  fontWeight: 700,
   lineHeight: 1,
 
   "&:hover": {

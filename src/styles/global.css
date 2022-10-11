@@ -1,3 +1,7 @@
+:root {
+  --common-font: "Lato", sans-serif;
+}
+
 @font-face {
   font-family: "georgia1";
   src: url("../fonts/Georgia.ttf");
